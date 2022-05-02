@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/movie-doo/static/css/main.073c9b0a.css",
-    "main.js": "/movie-doo/static/js/main.c8f5b5a6.js",
+    "main.js": "/movie-doo/static/js/main.c30f18b1.js",
     "static/js/787.85709b29.chunk.js": "/movie-doo/static/js/787.85709b29.chunk.js",
     "static/media/logo.svg": "/movie-doo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/movie-doo/index.html",
     "main.073c9b0a.css.map": "/movie-doo/static/css/main.073c9b0a.css.map",
-    "main.c8f5b5a6.js.map": "/movie-doo/static/js/main.c8f5b5a6.js.map",
+    "main.c30f18b1.js.map": "/movie-doo/static/js/main.c30f18b1.js.map",
     "787.85709b29.chunk.js.map": "/movie-doo/static/js/787.85709b29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.c8f5b5a6.js"
+    "static/js/main.c30f18b1.js"
   ]
 }
