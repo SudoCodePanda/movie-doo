@@ -1,28 +1,19 @@
 import './App.css';
-import { useEffect, useState } from 'react';
 import { Navbar } from './components/navbar/Navbar';
 import { Home } from './pages/Home';
+import { Login } from './pages/Login';
+//Routing
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-
-  const [movies, setMovies] = useState([]);
-  const [loaded, setLoaded] = useState(false)
-
-  const fetchData = async () => {
-    const url = 'http://www.omdbapi.com/?s="star wars"&apikey=e0aa87ec&'
-    const response = await fetch(url)
-    const resJson = await response.json()
-    setMovies(resJson.Search)
-    setLoaded(true)
-  }
-  useEffect(()=>{
-    fetchData()
-  },[])
-
   return (
     <div>
+    <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route path='/login' element={<Login/>}/>
+    </Routes>
     <Navbar />
-    <Home />
+    
   </div>
   );
 }
